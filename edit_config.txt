@@ -1,0 +1,228 @@
+#Editor Config
+#The Editor Config should be divided up by File Names and Headers
+#The order of the Edit Files in this config file determines the order that the Master Edits will appear in each line for the
+#output. The headers within each ME must not be ordered differently than how it appears in the ME file.
+#Every header must have a default value, starting with the header after the last item (chr, pos, ref, and var) (whichever appears last)
+#The Headers and Default Value lines should not have a "#" sign before them except for the "##" lines
+#There must be a "##" before each ME file name to distinguish between files
+#There cannot be spaces or single "#" between files, however you can add comments to the "##" lines provided you add spacing between the "##" and the comment
+#If the Master Edit file is a CADD, Polyphen, or Eigen file, The "##" line should be changed to "##CADD", "##POLY", or "##Eigen" (exactly)
+#Example:
+#  ##
+#  FileNameMasterEditblahblah.txt <-- The name of the file as shown in the directory of Master Edit Files where "FileNameMasterEditblahblah.txt" is the name
+#  Headerblahblah=DefaultValue
+#  SecondHeader=DefaultValue
+#  ## <-- Double "#" for seperation of files
+#  SecondMasterEditblahblah.txt
+#  Headerz=DefaultValue
+#  ##CADD    <-- For announcing a CADD file
+#  CADDFileNameblahblah.txt
+#  CaddHeader=DefaultValue
+#
+#
+##CADD
+CADD_mastereditfile61.txt
+RawScore=-6.0
+PHRED=0.0001
+##ExAC
+ExAC_Mastereditfile2.txt
+Finnish_Minor_Allele_Frequency=0
+African/African_American_Minor_Allele_Frequency=0
+East_Asian_Minor_Allele_Frequency=0
+South_Asian_Minor_Allele_Frequency=0
+Non-Finnish_European_Minor_Allele_Frequency=0
+Latino_Minor_Allele_Frequency=0
+Total_Minor_Allele_Frequency=0
+Finnish_Allele_Count=0
+African/African_American_Allele_Count=0
+East_Asian_Allele_Count=0
+South_Asian_Allele_Count=0
+Non-Finnish_European_Allele_Count=0
+Latino_Allele_Count=0
+Total_Allele_Count=0
+Finnish_Chromosome_Count=0
+African/African_American_Chromosome_Count=0
+East_Asian_Chromosome_Count=0
+South_Asian_Chromosome_Count=0
+Non-Finnish_European_Chromosome_Count=0
+Latino_Chromosome_Count=0
+Total_Chromosome_Count=0
+Finnish_Homozygous_Count=0
+African/African_American_Homozygous_Count=0
+East_Asian_Homozygous_Count=0
+South_Asian_Homozygous_Count=0
+Non-Finnish_European_Homozygous_Count=0
+Latino_Homozygous_Count=0
+Total_Homozygous_Count=0
+Finnish_Hemizygous_Count=0
+African/African_American_Hemizygous_Count=0
+East_Asian_Hemizygous_Count=0
+South_Asian_Hemizygous_Count=0
+Non-Finnish_European_Hemizygous_Count=0
+Latino_Hemizygous_Count=0
+Total_Hemizygous_Count=0
+ExAC_Max_MAF>1%=false
+ExAC_Max_MAF>2%=false
+##HGMD
+HGMD2018Mastereditfile.txt
+HGMDtags=-
+HGMDids=-
+REF_MATCHES_HGMD_DISEASE_ALLELE=-
+HGMD_genename=-
+HGMDstrand=+
+HGMD_transcript_cDNA=-
+HGMD_protein=-
+HGMD_DB=-
+HGMDdisease=-
+HGMD_RANKSCORE=0
+##1KGenome
+1K_Genome_Phase3_Master2.txt
+1KGen_dbID=-
+1KGen_Alt_Allele_c=0
+1KGen_Allele_freq=0
+1KGen_Total_Allele_c=0
+1KGen_Num_Samples=0
+1KGen_Tot_Read_Depth=0
+1KGen_EAS_freq=0
+1KGen_AMR_freq=0
+1KGen_AFR_freq=0
+1KGen_EUR_freq=0
+1KGen_SAS_freq=0
+1KGen_Ances_Allele=-
+1KGen_Exon_Target=0
+1KGen_Multi_Allele_Locus=0
+1K_Max_MAF>1%=false
+1K_Max_MAF>2%=false
+##POLY
+Polyphen2HUMVARmastereditfile104.txt
+PPhen_GeneName=-
+PPhen_Transcript=-
+Protein_POS=0
+Ref_AA=-
+Alt_AA=-
+Prediction=-
+Prob=0
+Sensitivity=0
+Specificity=0
+##Eigen
+EigenMasterEditfile8_2016.txt
+Eigen=-6.0
+EPHRED=0.0001
+EigenPC=-6
+EPCPHRED=0.0001
+##uk10k Eigen goes above^
+uk10kMastereditfile3.txt
+uk10k_AN=0
+uk10k_AC=0
+uk10k_MAF=0
+ukMaxMAF>1%=false
+ukMaxMAF>2%=false
+##MCAP
+M_CAP_Mastereditfile2.txt
+M_CAPv1.0=0
+##Gnomad Genome
+GnomadFinalMasterEditFilegenomes.txt
+AC=0
+AF=0
+AN=0
+AC_AFR=0
+AC_AMR=0
+AC_ASJ=0
+AC_EAS=0
+AC_FIN=0
+AC_NFE=0
+AN_AFR=0
+AN_AMR=0
+AN_ASJ=0
+AN_EAS=0
+AN_FIN=0
+AN_NFE=0
+AF_AFR=0
+AF_AMR=0
+AF_ASJ=0
+AF_EAS=0
+AF_FIN=0
+AF_NFE=0
+AN_raw=0
+Hom_AFR=0
+Hom_AMR=0
+Hom_ASJ=0
+Hom_EAS=0
+Hom_FIN=0
+Hom_NFE=0
+Hom_raw=0
+Hemi_AFR=0
+Hemi_AMR=0
+Hemi_ASJ=0
+Hemi_EAS=0
+Hemi_FIN=0
+Hemi_NFE=0
+Hemi=0
+GnAC_Max_MAF>1%=false
+GnAC_Max_MAF>2%=false
+##Gnomad Exomes
+gnomad_exomes_mastereditfile.txt
+Gex_AC=0
+Gex_AF=0
+Gex_AN=0
+GexAC_AFR=0
+GexAC_AMR=0
+GexAC_ASJ=0
+GexAC_EAS=0
+GexAC_FIN=0
+GexAC_NFE=0
+GexAC_SAS=0
+GexAN_AFR=0
+GexAN_AMR=0
+GexAN_ASJ=0
+GexAN_EAS=0
+GexAN_FIN=0
+GexAN_NFE=0
+GexAN_SAS=0
+GexAF_AFR=0
+GexAF_AMR=0
+GexAF_ASJ=0
+GexAF_EAS=0
+GexAF_FIN=0
+GexAF_NFE=0
+GexAF_SAS=0
+GexAC_raw=0
+GexAN_raw=0
+GexAF_raw=0
+GexHom_AFR=0
+GexHom_AMR=0
+GexHom_ASJ=0
+GexHom_EAS=0
+GexHom_FIN=0
+GexHom_NFE=0
+GexHom_SAS=0
+GexHom_raw=0
+GexHemi_AFR=0
+GexHemi_AMR=0
+GexHemi_ASJ=0
+GexHemi_EAS=0
+GexHemi_FIN=0
+GexHemi_NFE=0
+GexHemi_SAS=0
+GexHemi_raw=0
+Gnexome_Max_MAF>1%=false
+Gnexome_Max_MAF>2%=false
+##Cravat
+CRAVAT_mastereditfile3.txt
+HUGO=-
+Seq_ONT=-
+PROTchg=-
+VEST_p=0
+VEST_FDR=0
+dbSNP_Cravat=-
+##Clinvar
+CLINVAR_2018_Mastereditfile1.txt
+#AlleleID=0
+Type=-
+GeneSymbol=-
+ClinicalSignificance=-
+##Revel
+Revel_hg19_mastereditfile.txt
+aaref=-
+aaalt=-
+REVEL=0

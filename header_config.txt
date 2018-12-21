@@ -1,0 +1,25 @@
+#Config File for SnpEff Header Truncator
+Allele count in genotypes, for each ALT allele, in the same order as listed=AlleleCount
+Allele Frequency, for each ALT allele, in the same order as listed=AlleleFreq
+Total number of alleles in called genotypes=TotAlleleNum
+Z-score from Wilcoxon rank sum test of Alt Vs. Ref base qualities=Z-scoreAltvRefBaseQual
+Z-score From Wilcoxon rank sum test of Alt vs. Ref number of hard clipped bases=Z-scoreAltvRefHardClipBaseNum
+Approximate read depth; some reads may have been filtered=ApproxReadDepth
+Were any of the samples downsampled?=Downsampled?
+Stop position of the interval=StopPosInterval
+Phred-scaled p-value for exact test of excess heterozygosity=PhreadPExcessHeterozygosity
+Phred-scaled p-value using Fisher's exact test to detect strand bias=PhreadPStrandBias
+Consistency of the site with at most two segregating haplotypes=ConsistencyTwoSegregatingHaplotypes
+Inbreeding coefficient as estimated from the genotype likelihoods per-sample when compared against the Hardy-Weinberg expectation=InbreedingCoefficient
+Maximum likelihood expectation (MLE) for the allele counts (not necessarily the same as the AC), for each ALT allele, in the same order as listed=AltAlleleCountExpectations
+Maximum likelihood expectation (MLE) for the allele frequency (not necessarily the same as the AF), for each ALT allele, in the same order as listed=AltAlleleFreqExpectations
+Z-score From Wilcoxon rank sum test of Alt vs. Ref read mapping qualities=ZscoreAltvRefMapQual
+This variant was used to build the negative training set of bad variants=BuildNegTrainSetBadVariants?
+This variant was used to build the positive training set of good variants=BuildPosTrainSetGoodVariants?
+Variant Confidence/Quality by Depth=VariantQual
+Raw data for RMS Mapping Quality=RawDataRMSMapQual
+Z-score from Wilcoxon rank sum test of Alt vs. Ref read position bias=ZScoreAltvRefPosBias
+Symmetric Odds Ratio of 2x2 contingency table to detect strand bias=SymOddsRatioStrandBias
+Log odds of being a true variant versus being false under the trained gaussian mixture model=LogOddsTrueVariant
+The annotation which was the worst performing in the Gaussian mixture model, likely the reason why the variant was filtered out=WorstPerformingAnnot
+Predicted effects for this variant.Format: 'Effect ( Effect_Impact | Functional_Class | Codon_Change | Amino_Acid_Change| Amino_Acid_length | Gene_Name | Transcript_BioType | Gene_Coding | Transcript_ID | Exon_Rank  | Genotype [ | ERRORS | WARNINGS ] )'=PredictedEffects
